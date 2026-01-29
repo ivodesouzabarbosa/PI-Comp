@@ -764,6 +764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Senac
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8c29bf9f0f847a76cb69a809df050c59, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1658880343403422816, guid: 8c29bf9f0f847a76cb69a809df050c59, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1589,6 +1593,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1e58558b9b39ae848a2b58d5b8a90b99, type: 3}
       propertyPath: m_Name
       value: senac 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e58558b9b39ae848a2b58d5b8a90b99, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821623529969584324, guid: 1e58558b9b39ae848a2b58d5b8a90b99, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3592,13 +3604,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Impressora3D-telma(trevo) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1987108631273427010, guid: 1054ce9462417934baa045e6297d3cc2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.157
+      objectReference: {fileID: 0}
     - target: {fileID: 4947085873319173461, guid: 1054ce9462417934baa045e6297d3cc2, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6043472081000317648, guid: 1054ce9462417934baa045e6297d3cc2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.547
+      value: -0.6339
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4618,7 +4634,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &831942169
 Light:
   m_ObjectHideFlags: 0
