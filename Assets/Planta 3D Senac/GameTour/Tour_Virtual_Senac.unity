@@ -18078,6 +18078,7 @@ Transform:
   - {fileID: 1063101904}
   - {fileID: 1204421235}
   - {fileID: 144815169}
+  - {fileID: 1839890304}
   - {fileID: 671108603}
   - {fileID: 496636034}
   - {fileID: 66019333}
@@ -21405,6 +21406,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619581351}
   m_CullTransparentMesh: 1
+--- !u!1001 &1640780787
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e63f32a7facd3bd44ac7bc402becaa38, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e63f32a7facd3bd44ac7bc402becaa38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.27
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e63f32a7facd3bd44ac7bc402becaa38, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -19.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e63f32a7facd3bd44ac7bc402becaa38, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.50008726
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e63f32a7facd3bd44ac7bc402becaa38, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.49991274
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e63f32a7facd3bd44ac7bc402becaa38, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.50008726
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e63f32a7facd3bd44ac7bc402becaa38, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.49991274
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e63f32a7facd3bd44ac7bc402becaa38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e63f32a7facd3bd44ac7bc402becaa38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e63f32a7facd3bd44ac7bc402becaa38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e63f32a7facd3bd44ac7bc402becaa38, type: 3}
+      propertyPath: m_Name
+      value: ARMARIO LOCKER RED
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e63f32a7facd3bd44ac7bc402becaa38, type: 3}
 --- !u!1001 &1641176906
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23433,6 +23491,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 65f49f65d7b69444b815269438f84a90, type: 3}
   m_PrefabInstance: {fileID: 1836792297}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1839890303
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1320459390}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 68adab27311afa841870479c942836fe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.33
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68adab27311afa841870479c942836fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.43
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68adab27311afa841870479c942836fe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.464
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68adab27311afa841870479c942836fe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.50008726
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68adab27311afa841870479c942836fe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.49991274
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68adab27311afa841870479c942836fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.50008726
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68adab27311afa841870479c942836fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.49991274
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68adab27311afa841870479c942836fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68adab27311afa841870479c942836fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68adab27311afa841870479c942836fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 68adab27311afa841870479c942836fe, type: 3}
+      propertyPath: m_Name
+      value: ARMARIO LOCKER MARELO
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 68adab27311afa841870479c942836fe, type: 3}
+--- !u!4 &1839890304 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 68adab27311afa841870479c942836fe, type: 3}
+  m_PrefabInstance: {fileID: 1839890303}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1840277845
 PrefabInstance:
@@ -46886,3 +47006,4 @@ SceneRoots:
   - {fileID: 726879741}
   - {fileID: 2147291157}
   - {fileID: 1007368296}
+  - {fileID: 1640780787}
