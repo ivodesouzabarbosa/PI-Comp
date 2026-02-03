@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 using DG.Tweening;
 public class MenuController : MonoBehaviour
 {
-    [SerializeField] private string                             _nomeDoJogo;
     [SerializeField] private GameObject                         _PainelMenuInicial;
     [SerializeField] private GameObject                         _PainelOpções;
     private string                                              _FocusPainel;
@@ -45,10 +44,6 @@ public class MenuController : MonoBehaviour
         }
     }
     //BOTÕES
-    public void Jogar()
-    {
-        SceneManager.LoadScene(_nomeDoJogo);
-    }
     public void Sair()
     {
         Debug.Log("Saiu do Jogo");
