@@ -20230,7 +20230,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1198487391}
   - {fileID: 7215074944172371400}
   - {fileID: 4011084759906007764}
   - {fileID: 1972280086277579733}
@@ -27207,6 +27206,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d814b30f5b4ddf541abc50560336e085, type: 3}
   m_PrefabInstance: {fileID: 1065868066}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1071975319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1934637434}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4e227e033873e67458a99dc62047f8af, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.699999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4e227e033873e67458a99dc62047f8af, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2284435
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4e227e033873e67458a99dc62047f8af, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5976921
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4e227e033873e67458a99dc62047f8af, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4e227e033873e67458a99dc62047f8af, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4e227e033873e67458a99dc62047f8af, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4e227e033873e67458a99dc62047f8af, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4e227e033873e67458a99dc62047f8af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4e227e033873e67458a99dc62047f8af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4e227e033873e67458a99dc62047f8af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4e227e033873e67458a99dc62047f8af, type: 3}
+      propertyPath: m_Name
+      value: Impressora3D-telma(trevo)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4e227e033873e67458a99dc62047f8af, type: 3}
+--- !u!4 &1071975320 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4e227e033873e67458a99dc62047f8af, type: 3}
+  m_PrefabInstance: {fileID: 1071975319}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1074871051
 GameObject:
   m_ObjectHideFlags: 0
@@ -30349,68 +30410,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 10d5ac8c2349624468d4e192f168f42c, type: 3}
   m_PrefabInstance: {fileID: 1197673739}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1198487390
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 823081187}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: e68499bda6d43084db65240dc9ee75b2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.047252357
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e68499bda6d43084db65240dc9ee75b2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.23
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e68499bda6d43084db65240dc9ee75b2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.46
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e68499bda6d43084db65240dc9ee75b2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071067
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e68499bda6d43084db65240dc9ee75b2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e68499bda6d43084db65240dc9ee75b2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e68499bda6d43084db65240dc9ee75b2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e68499bda6d43084db65240dc9ee75b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e68499bda6d43084db65240dc9ee75b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e68499bda6d43084db65240dc9ee75b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: e68499bda6d43084db65240dc9ee75b2, type: 3}
-      propertyPath: m_Name
-      value: Impressora3D 1-telma(trevo)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e68499bda6d43084db65240dc9ee75b2, type: 3}
---- !u!4 &1198487391 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e68499bda6d43084db65240dc9ee75b2, type: 3}
-  m_PrefabInstance: {fileID: 1198487390}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1199152389
 PrefabInstance:
@@ -46545,6 +46544,7 @@ Transform:
   - {fileID: 1185436329}
   - {fileID: 57523104}
   - {fileID: 381511437}
+  - {fileID: 1071975320}
   - {fileID: 823081187}
   - {fileID: 705552804}
   - {fileID: 1314612192}

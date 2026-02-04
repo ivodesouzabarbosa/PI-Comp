@@ -1,14 +1,39 @@
 fileFormatVersion: 2
-guid: e68499bda6d43084db65240dc9ee75b2
+guid: 4e227e033873e67458a99dc62047f8af
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fiament-Orange
+    second: {fileID: 2100000, guid: c9695fc63ea58c74fa9441166d19c52b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kunsstof-Schwarz
+    second: {fileID: 2100000, guid: 9c53fd8de687e0e45a1cb607b61b0eac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.021
+    second: {fileID: 2100000, guid: 8ec5eb2c98bdc4041b2bbff8f0718fdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stahl
+    second: {fileID: 2100000, guid: 627075e36b1d35041a5c099ba4559aee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: schwarz_Plastik
+    second: {fileID: 2100000, guid: 8b0cddd83752c5448bc0d3972f76a8ae, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: impressora 3D
-    second: {fileID: 2800000, guid: f5d56756b88f3b447bb0b89a8d095545, type: 3}
+    second: {fileID: 2800000, guid: dcda58ff185565541b9e7b1e7a8ff219, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
