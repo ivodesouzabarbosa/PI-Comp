@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e63f32a7facd3bd44ac7bc402becaa38
+guid: 7cdb987314195034e95e1b42dd375564
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,37 +8,47 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ARMARIO METAL
-    second: {fileID: 2100000, guid: fcbd7eed86665d449b6812e619f77dc1, type: 2}
+    second: {fileID: 2100000, guid: 64448320f44c84e40bb37c8d3037ae74, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: armario portinhas red
-    second: {fileID: 2100000, guid: 94b39f9408fe17346bd174eb0784204c, type: 2}
+      name: Carpete
+    second: {fileID: 2100000, guid: 51c89c3662514454d85666e3d1044644, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Carpet016_1K-JPG_Color
+    second: {fileID: 2800000, guid: eff07fc013526a843b47bec067e09db4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Carpet016_1K-JPG_NormalGL
+    second: {fileID: 2800000, guid: 180ecc04e7befe549a4a80d1e2e1d348, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Carpet016_1K-JPG_Roughness
+    second: {fileID: 2800000, guid: da069b661d9896247a3558af7bc8c503, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: plastic09_grey_basecolor
-    second: {fileID: 2800000, guid: e935e10d0c0eb6342a8a3d508dcc9a60, type: 3}
+    second: {fileID: 2800000, guid: ecf5adadb56c7ff4ab4a90af58bb6a8d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: plastic09_metallic
-    second: {fileID: 2800000, guid: 2a40cc5ab68d4d2488ee98ddd7168b6e, type: 3}
+    second: {fileID: 2800000, guid: ce3b897b7102f4747b59f3c2a4fb95e2, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: plastic09_normal_opengl
-    second: {fileID: 2800000, guid: b67e40f0f7e5ca144b7c887670ab5f9e, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: plastic09_red_diffuse
-    second: {fileID: 2800000, guid: e2c3f52e433dd034881c7a0111c4c13e, type: 3}
+    second: {fileID: 2800000, guid: 30c33b16b2d82334a947ad4de5696923, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: plastic09_specular
-    second: {fileID: 2800000, guid: c99c5f71e4537564daecbbaba8ed3c27, type: 3}
+    second: {fileID: 2800000, guid: b6e8602bb240b6947af09eb99e48aa26, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
