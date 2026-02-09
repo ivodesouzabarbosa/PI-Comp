@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class AnimacaoOnda : MonoBehaviour
 {
-    public float speed = 100f;      // velocidade em pixels por segundo
+    public float speed = 100f;     
     public float resetX = -800f;    // posição onde a onda reseta
 
     private RectTransform rect;
