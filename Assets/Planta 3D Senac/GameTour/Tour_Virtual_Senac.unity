@@ -3630,6 +3630,7 @@ GameObject:
   - component: {fileID: 153424836}
   - component: {fileID: 153424838}
   - component: {fileID: 153424837}
+  - component: {fileID: 153424839}
   m_Layer: 5
   m_Name: Onda2
   m_TagString: Untagged
@@ -3694,6 +3695,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153424835}
   m_CullTransparentMesh: 1
+--- !u!114 &153424839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153424835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a7f0309229df3641bda07a839a49dfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 100
+  resetX: -800
 --- !u!1001 &153887835
 PrefabInstance:
   m_ObjectHideFlags: 0
