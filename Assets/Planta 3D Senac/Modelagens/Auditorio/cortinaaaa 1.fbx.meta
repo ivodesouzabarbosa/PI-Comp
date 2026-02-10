@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 558b6d97a624ad246a9e83b0aeac4435
+guid: c573f5adb4391124a8069a4b62e945c0
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,13 +7,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Macanetaarmario
-    second: {fileID: 2100000, guid: 5f43a87c540be474ca0e48921404b56c, type: 2}
+      name: curTINA
+    second: {fileID: 2100000, guid: e1a5fbca3b5ece04ea252c0a06022d77, type: 2}
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: armariobiblioteca
-    second: {fileID: 2100000, guid: a622bc4a631a4034eab34ac6e1163e21, type: 2}
+      name: curtains01_diffuse
+    second: {fileID: 2800000, guid: b363b3fd71034d44e9c40f414a3e9f34, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: curtains01_normal_opengl
+    second: {fileID: 2800000, guid: 1dca4ac9dd7044f42abc3cb4e692621e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: curtains01_opacity
+    second: {fileID: 2800000, guid: bcae8262ed6662a4dab9fc2fc6632e24, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: curtains01_roughness
+    second: {fileID: 2800000, guid: f763d5b7f30b0664aa2dc9e7071ef991, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
