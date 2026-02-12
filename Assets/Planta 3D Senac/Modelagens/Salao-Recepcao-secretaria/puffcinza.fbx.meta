@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: ef9391a70d1bb6f4fbe9c83af54d9343
+guid: 56af42ea624cccd4093480c97a142ae7
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cinzacostadiffuse.001
+    second: {fileID: 2800000, guid: 750c2e8655074fe44bdcb6b9cd22b141, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cinzacostaroughness.001
+    second: {fileID: 2800000, guid: 4515dcbe86f1ce84d876e11ddd7934a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: puffcinzadiffuse
+    second: {fileID: 2800000, guid: 1269bf5417c148f429a1b98a6c818419, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: puffcinzaroughness
+    second: {fileID: 2800000, guid: 538793e92b4f4204297c689e2e407e1d, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

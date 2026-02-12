@@ -1,9 +1,24 @@
 fileFormatVersion: 2
-guid: ef9391a70d1bb6f4fbe9c83af54d9343
+guid: 3b125c33908b08748b178a33057155f7
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: brown_mud_02_diff_1k
+    second: {fileID: 2800000, guid: 3953d66936901f94abedc982256d35f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: brown_mud_02_nor_gl_1k
+    second: {fileID: 2800000, guid: bc9f2410755602d409aa5bd0e6b088a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: brown_mud_02_rough_1k
+    second: {fileID: 2800000, guid: 6f515d59888a0154d9943d0846649d5a, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

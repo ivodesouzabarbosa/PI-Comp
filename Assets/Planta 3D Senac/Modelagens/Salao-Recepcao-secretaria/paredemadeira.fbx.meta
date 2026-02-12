@@ -1,9 +1,24 @@
 fileFormatVersion: 2
-guid: ef9391a70d1bb6f4fbe9c83af54d9343
+guid: 8f3f62ad6e543c54d8ce63c8adafe8a5
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WoodFloor007_2K-JPG_Color
+    second: {fileID: 2800000, guid: a4e23a739e53f3845b99da9860670a03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WoodFloor007_2K-JPG_Roughness
+    second: {fileID: 2800000, guid: 4e4baa50279f18349976bf5da79a72ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: textura_parede_salas
+    second: {fileID: 2800000, guid: 6fda4bfdb45ff2e4eb82df4ab31d94f6, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
