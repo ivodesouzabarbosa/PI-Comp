@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Pfinal : MonoBehaviour
 {
-    public float speed = 200f;
+    public float speed = 100f;
     [SerializeField]  private RectTransform rect;
     [SerializeField] private RectTransform pontoFinal;
 
