@@ -1,5 +1,6 @@
-using UnityEngine;
 using System.Collections.Generic;
+//using UnityEditor.Experimental.GraphView;
+using UnityEngine;
 
 public class LocalPonto : MonoBehaviour
 {
@@ -9,41 +10,71 @@ public class LocalPonto : MonoBehaviour
     [Header("Referências")]
     public List<GameObject> minhasSetas;
 
-    // (Opcional) Se você quiser deixar fixo no script para onde ele vai
+
     public LocalPonto proximoPontoAutomatico;
+
+    [SerializeField] GameObject girarPorta;
+
+    public List<GameObject> objetosDaSala;
 
     void Start()
     {
-        // Garante o estado inicial correto assim que o jogo abre
+
+
         if (_pontoInicio)
             AtivarSetas();
         else
             DesativarSetas();
     }
 
-    // --- FUNÇÃO MÁGICA PARA O BOTÃO ---
-    // Use ESTA função no evento OnClick da Seta
+
     public void IrParaPonto(LocalPonto proximoPonto)
     {
-        // 1. Desliga as setas deste ponto (onde estou agora)
+
         DesativarSetas();
 
-        // 2. Liga as setas do ponto de destino
+
         if (proximoPonto != null)
         {
             proximoPonto.AtivarSetas();
         }
+
+
     }
 
     public void AtivarSetas()
     {
         foreach (var seta in minhasSetas)
             if (seta != null) seta.SetActive(true);
+        foreach (var obj in objetosDaSala)
+            if (obj != null) obj.SetActive(true);
+        AbrirPorta();
     }
 
     public void DesativarSetas()
     {
         foreach (var seta in minhasSetas)
             if (seta != null) seta.SetActive(false);
+        foreach (var obj in objetosDaSala)
+            if (obj != null) obj.SetActive(false);
+        FechaPorta();
+    }
+
+    void AbrirPorta()
+    {
+        if (girarPorta != null)
+        {
+            var porta = girarPorta.GetComponent<PortaControlador>();
+            if (porta != null) porta.Abrir();
+        }
+    }
+
+    void FechaPorta()
+    {
+        if (girarPorta != null)
+        {
+            var porta = girarPorta.GetComponent<PortaControlador>();
+            if (porta != null) porta.Fechar();
+        }
     }
 }

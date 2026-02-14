@@ -1,21 +1,21 @@
 ﻿using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using System.Linq;
 
 public class DedoDuro : MonoBehaviour
 {
+#if UNITY_EDITOR
     [MenuItem("Tools/Top 20 Objetos mais pesados do projeto")]
-    [System.Obsolete]
     static void ListarPesados()
     {
-        
         MeshFilter[] todosOsMeshes = Object.FindObjectsOfType<MeshFilter>();
 
-        
         var listaOrdenada = todosOsMeshes
             .Where(mf => mf.sharedMesh != null)
             .OrderByDescending(mf => mf.sharedMesh.triangles.Length)
-            .Take(20) 
+            .Take(20)
             .ToArray();
 
         Debug.Log("TOP 20 OBJETOS VENCEDORES!");
@@ -26,4 +26,5 @@ public class DedoDuro : MonoBehaviour
             Debug.Log($"🛑 <b>{mf.name}</b> | Tris: {tris:N0}", mf.gameObject);
         }
     }
+#endif
 }
