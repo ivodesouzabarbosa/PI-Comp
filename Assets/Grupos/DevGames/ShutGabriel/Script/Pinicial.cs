@@ -3,7 +3,7 @@ using UnityEngine;
 public class Pinicial : MonoBehaviour
 {
     public RectTransform pontoInicial;
-    public float intervalo = 1f;
+    public float intervalo = 1.5f;
 
     void Start()
     {
