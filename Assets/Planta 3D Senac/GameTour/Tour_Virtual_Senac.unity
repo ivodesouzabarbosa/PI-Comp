@@ -1933,7 +1933,7 @@ Transform:
   m_GameObject: {fileID: 21227052}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 22.965916, y: 5.08, z: -36.552}
+  m_LocalPosition: {x: 22.965916, y: 5.106, z: -36.552}
   m_LocalScale: {x: 1.0619, y: 1.0618999, z: 1.0618999}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3111,6 +3111,80 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 32372952}
   m_Mesh: {fileID: -4416199363562752387, guid: 855d5820b0e762a40a1938f627e5c7b5, type: 3}
+--- !u!1001 &32449358
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1394797699}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6618208
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4573082
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4573082
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.432
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.95
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -37.515
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.45794946
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.4579494
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.53877854
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5387786
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -99.272
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_Name
+      value: cortina da sala de audio
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+--- !u!4 &32449359 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+  m_PrefabInstance: {fileID: 32449358}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &34481725
 GameObject:
   m_ObjectHideFlags: 0
@@ -4001,6 +4075,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 39958653}
   m_Mesh: {fileID: 2534964839176971238, guid: f70c574de2780ee40b2673b6a8fec4ef, type: 3}
+--- !u!1 &40359174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 40359175}
+  - component: {fileID: 40359177}
+  - component: {fileID: 40359176}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &40359175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40359174}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5052627, y: 0.4946814, z: 0.4946813, w: 0.50526273}
+  m_LocalPosition: {x: 0.6529999, y: 4.92, z: -35.621}
+  m_LocalScale: {x: 0.42422995, y: 0.10079999, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 88.787}
+--- !u!23 &40359176
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40359174}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &40359177
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40359174}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &41239039
 GameObject:
   m_ObjectHideFlags: 0
@@ -5258,6 +5424,98 @@ Transform:
   - {fileID: 1908084856}
   m_Father: {fileID: 1572331498}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &58899380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 58899381}
+  - component: {fileID: 58899383}
+  - component: {fileID: 58899382}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (26)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &58899381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58899380}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 6.5060005, y: 4.9200006, z: -35.606}
+  m_LocalScale: {x: 0.42422998, y: 0.1008, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
+--- !u!23 &58899382
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58899380}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &58899383
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58899380}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &58979975
 GameObject:
   m_ObjectHideFlags: 0
@@ -7832,6 +8090,92 @@ Transform:
   - {fileID: 1651420288}
   m_Father: {fileID: 1236670241}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!1 &91026922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 91026923}
+  - component: {fileID: 91026925}
+  - component: {fileID: 91026924}
+  m_Layer: 0
+  m_Name: PAREDE  lateral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &91026923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91026922}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: 15.58, y: 4.65, z: -50.48}
+  m_LocalScale: {x: 1, y: 1.9145291, z: 1.2370298}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!23 &91026924
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91026922}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -3846018093981099296, guid: 30243a5e78f920d4fa04cf45bd48ad8e, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &91026925
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91026922}
+  m_Mesh: {fileID: -4621238388735219092, guid: 30243a5e78f920d4fa04cf45bd48ad8e, type: 3}
 --- !u!1 &95436057
 GameObject:
   m_ObjectHideFlags: 0
@@ -9062,7 +9406,7 @@ Transform:
   m_GameObject: {fileID: 110598643}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0096150525, y: 0.70704144, z: 0.7070414, w: -0.009615045}
-  m_LocalPosition: {x: 21.957, y: 4.882, z: -36.693}
+  m_LocalPosition: {x: 21.957, y: 4.885, z: -36.693}
   m_LocalScale: {x: 0.19812527, y: 0.19812527, z: 0.19812527}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13646,7 +13990,7 @@ Transform:
   m_GameObject: {fileID: 180231854}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 7.5389156, y: 5.3356137, z: -37.260498}
+  m_LocalPosition: {x: 7.75, y: 5.34, z: -37.29}
   m_LocalScale: {x: 1.6541, y: 1.6540997, z: 1.6541}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24389,6 +24733,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296669202}
   m_Mesh: {fileID: -5495902117074765545, guid: 70ae1c6668c2a5d4084b6287ab8b5f23, type: 3}
+--- !u!1 &298250405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 298250406}
+  - component: {fileID: 298250408}
+  - component: {fileID: 298250407}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (34)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &298250406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298250405}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 6.6000004, y: 4.9200006, z: -37.32}
+  m_LocalScale: {x: 0.42422998, y: 0.1008, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
+--- !u!23 &298250407
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298250405}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &298250408
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298250405}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &299924868
 GameObject:
   m_ObjectHideFlags: 0
@@ -30876,6 +31312,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378075664}
   m_Mesh: {fileID: -7741722607783284774, guid: 8c29bf9f0f847a76cb69a809df050c59, type: 3}
+--- !u!1 &381133930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 381133931}
+  - component: {fileID: 381133933}
+  - component: {fileID: 381133932}
+  m_Layer: 0
+  m_Name: cadeira lab games
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &381133931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381133930}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000022618866, y: -0.7071066, z: -0.00000022618852, w: 0.70710707}
+  m_LocalPosition: {x: 5.3199997, y: 4.676, z: -38.76}
+  m_LocalScale: {x: 0.29999998, y: 0.29999998, z: 0.29999998}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &381133932
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381133930}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -5459820707928822607, guid: bb93781ee87161346af2635933f8ecd3, type: 3}
+  - {fileID: -5320207386811839293, guid: bb93781ee87161346af2635933f8ecd3, type: 3}
+  - {fileID: -6478536213147159724, guid: bb93781ee87161346af2635933f8ecd3, type: 3}
+  - {fileID: 9185737683893222716, guid: bb93781ee87161346af2635933f8ecd3, type: 3}
+  - {fileID: -3522955778539423533, guid: bb93781ee87161346af2635933f8ecd3, type: 3}
+  - {fileID: -1107230302785906037, guid: bb93781ee87161346af2635933f8ecd3, type: 3}
+  - {fileID: 5311806022402483527, guid: bb93781ee87161346af2635933f8ecd3, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &381133933
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381133930}
+  m_Mesh: {fileID: 828682800104665300, guid: bb93781ee87161346af2635933f8ecd3, type: 3}
 --- !u!1 &381135792
 GameObject:
   m_ObjectHideFlags: 0
@@ -43292,7 +43820,7 @@ Transform:
   m_GameObject: {fileID: 520602522}
   serializedVersion: 2
   m_LocalRotation: {x: 0.012414557, y: 0.7069978, z: 0.7069978, w: -0.012414554}
-  m_LocalPosition: {x: 10.05, y: 5.385, z: -28.967}
+  m_LocalPosition: {x: 9.88, y: 5.385, z: -28.96}
   m_LocalScale: {x: 0.69948, y: 0.69948, z: 0.69948}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46206,6 +46734,98 @@ Transform:
   - {fileID: 2145750456}
   m_Father: {fileID: 1517621061}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &559579015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 559579016}
+  - component: {fileID: 559579018}
+  - component: {fileID: 559579017}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (31)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &559579016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559579015}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.020983357, y: 0.70679545, z: 0.70679533, w: 0.020983513}
+  m_LocalPosition: {x: 2.3999996, y: 4.92, z: -28.56}
+  m_LocalScale: {x: 0.42423, y: 0.1008, z: 0.6706099}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 176.599}
+--- !u!23 &559579017
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559579015}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &559579018
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559579015}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &561762894
 GameObject:
   m_ObjectHideFlags: 0
@@ -48497,6 +49117,98 @@ Transform:
   - {fileID: 355845816}
   m_Father: {fileID: 1650062145}
   m_LocalEulerAnglesHint: {x: 0, y: 360.365, z: 0}
+--- !u!1 &587029528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 587029529}
+  - component: {fileID: 587029531}
+  - component: {fileID: 587029530}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &587029529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587029528}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 6.6082764, y: 4.92, z: -31.68}
+  m_LocalScale: {x: 0.42422998, y: 0.1008, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
+--- !u!23 &587029530
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587029528}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &587029531
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587029528}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &587168182
 GameObject:
   m_ObjectHideFlags: 0
@@ -56380,7 +57092,7 @@ Transform:
   m_GameObject: {fileID: 664390519}
   serializedVersion: 2
   m_LocalRotation: {x: 0.10359889, y: -0.6994765, z: -0.69947636, w: -0.103598915}
-  m_LocalPosition: {x: -3.517, y: 0.233, z: 0.358}
+  m_LocalPosition: {x: -3.58, y: 0.233, z: 0.43}
   m_LocalScale: {x: 0.723977, y: 0.723977, z: 0.23853955}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -58428,6 +59140,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 680969291}
   m_Mesh: {fileID: 70948873267775455, guid: f42cfedc80bf77842a6ef562e4e6acd0, type: 3}
+--- !u!1 &681289072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 681289073}
+  - component: {fileID: 681289075}
+  - component: {fileID: 681289074}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (27)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &681289073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681289072}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.34840497, y: -0.61531615, z: -0.61531615, w: 0.34840497}
+  m_LocalPosition: {x: 6.4699993, y: 4.919998, z: -28.8}
+  m_LocalScale: {x: 0.42422998, y: 0.1008, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -120.961}
+--- !u!23 &681289074
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681289072}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &681289075
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681289072}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &681894136
 GameObject:
   m_ObjectHideFlags: 0
@@ -69929,7 +70733,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &842707954
 Transform:
   m_ObjectHideFlags: 0
@@ -71291,7 +72095,7 @@ Transform:
   m_GameObject: {fileID: 852262543}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.1531754, y: 9.312517, z: -14.685749}
+  m_LocalPosition: {x: 4.111, y: 9.312517, z: -14.685749}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -73222,6 +74026,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875829631}
   m_Mesh: {fileID: -243839998701133735, guid: 925a969ec37302948b4a9d097ae1ce3f, type: 3}
+--- !u!1 &875830833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 875830834}
+  - component: {fileID: 875830836}
+  - component: {fileID: 875830835}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (22)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &875830834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875830833}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 6.5706253, y: 4.92, z: -32.47}
+  m_LocalScale: {x: 0.42422998, y: 0.1008, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
+--- !u!23 &875830835
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875830833}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &875830836
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875830833}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &877435070
 GameObject:
   m_ObjectHideFlags: 0
@@ -81774,7 +82670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &969178080
 Transform:
   m_ObjectHideFlags: 0
@@ -85589,6 +86485,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1005312840}
   m_Mesh: {fileID: -213647591022139714, guid: bbf30eb76b84ecb40b8ecb7199ef6186, type: 3}
+--- !u!1 &1005368571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1005368572}
+  - component: {fileID: 1005368574}
+  - component: {fileID: 1005368573}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1005368572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005368571}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5052627, y: 0.4946814, z: 0.4946813, w: 0.50526273}
+  m_LocalPosition: {x: 0.53999996, y: 4.92, z: -33.197}
+  m_LocalScale: {x: 0.42422995, y: 0.10079999, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 88.787}
+--- !u!23 &1005368573
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005368571}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1005368574
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005368571}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1006015532
 GameObject:
   m_ObjectHideFlags: 0
@@ -86914,6 +87902,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019672644}
   m_Mesh: {fileID: -213647591022139714, guid: 5f422d2987364404f85563baca994fe8, type: 3}
+--- !u!1 &1019929540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1019929541}
+  - component: {fileID: 1019929543}
+  - component: {fileID: 1019929542}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1019929541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019929540}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 6.573578, y: 4.919998, z: -30.094166}
+  m_LocalScale: {x: 0.42422998, y: 0.1008, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
+--- !u!23 &1019929542
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019929540}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1019929543
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019929540}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1021006872
 GameObject:
   m_ObjectHideFlags: 0
@@ -88629,92 +89709,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040891669}
   m_Mesh: {fileID: 8691780276856062721, guid: 3b125c33908b08748b178a33057155f7, type: 3}
---- !u!1 &1041759392
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1041759393}
-  - component: {fileID: 1041759395}
-  - component: {fileID: 1041759394}
-  m_Layer: 0
-  m_Name: cortinha de audio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1041759393
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041759392}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.53667164, y: 0.4604167, z: 0.4604167, w: 0.5366717}
-  m_LocalPosition: {x: 24.3896, y: 6.36, z: -37.3685}
-  m_LocalScale: {x: 2.253885, y: 1.6919817, z: 2.3635435}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1394797699}
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 81.253}
---- !u!23 &1041759394
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041759392}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -6478536213147159724, guid: caa3865f89dd0a449a036a53bb2c2022, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1041759395
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041759392}
-  m_Mesh: {fileID: -5495902117074765545, guid: caa3865f89dd0a449a036a53bb2c2022, type: 3}
 --- !u!1 &1042263783
 GameObject:
   m_ObjectHideFlags: 0
@@ -90303,6 +91297,98 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1315065694}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1064113564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1064113565}
+  - component: {fileID: 1064113567}
+  - component: {fileID: 1064113566}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1064113565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064113564}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5052627, y: 0.4946814, z: 0.4946813, w: 0.50526273}
+  m_LocalPosition: {x: 0.55099964, y: 4.92, z: -33.938}
+  m_LocalScale: {x: 0.42422995, y: 0.10079999, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 88.787}
+--- !u!23 &1064113566
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064113564}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1064113567
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064113564}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1065692007
 GameObject:
   m_ObjectHideFlags: 0
@@ -91200,7 +92286,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -4.0126514, y: 1.5923, z: 9.2109}
-  m_LocalScale: {x: 0.74367, y: 2.3239686, z: 1.0132504}
+  m_LocalScale: {x: 0.83662874, y: 2.3239686, z: 1.0132504}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1651688957}
@@ -92347,6 +93433,98 @@ Transform:
   - {fileID: 1850202080}
   m_Father: {fileID: 1650062145}
   m_LocalEulerAnglesHint: {x: 0, y: 360.365, z: 0}
+--- !u!1 &1097293375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097293376}
+  - component: {fileID: 1097293378}
+  - component: {fileID: 1097293377}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1097293376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097293375}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5052627, y: 0.4946814, z: 0.4946813, w: 0.50526273}
+  m_LocalPosition: {x: 0.5640001, y: 4.92, z: -31.642}
+  m_LocalScale: {x: 0.42422995, y: 0.10079999, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 88.787}
+--- !u!23 &1097293377
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097293375}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1097293378
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097293375}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1098950676
 GameObject:
   m_ObjectHideFlags: 0
@@ -93934,7 +95112,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1119732958
 Transform:
   m_ObjectHideFlags: 0
@@ -94060,6 +95238,7 @@ Transform:
   - {fileID: 81928882}
   - {fileID: 2034302237}
   - {fileID: 743184002}
+  - {fileID: 1498259243}
   m_Father: {fileID: 1980501937}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1120754741
@@ -95719,6 +96898,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138211766}
   m_Mesh: {fileID: -1282910226861010839, guid: f70c574de2780ee40b2673b6a8fec4ef, type: 3}
+--- !u!1 &1138293673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1138293674}
+  - component: {fileID: 1138293676}
+  - component: {fileID: 1138293675}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (28)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1138293674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138293673}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.020983357, y: 0.70679545, z: 0.70679533, w: 0.020983513}
+  m_LocalPosition: {x: 3.3400002, y: 4.92, z: -28.5}
+  m_LocalScale: {x: 0.42423, y: 0.1008, z: 0.6706099}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 176.599}
+--- !u!23 &1138293675
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138293673}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1138293676
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138293673}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1138857431
 GameObject:
   m_ObjectHideFlags: 0
@@ -95978,6 +97249,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140304922}
   m_Mesh: {fileID: 6239881831769578202, guid: f70c574de2780ee40b2673b6a8fec4ef, type: 3}
+--- !u!1 &1140859624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1140859625}
+  - component: {fileID: 1140859627}
+  - component: {fileID: 1140859626}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (25)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1140859625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140859624}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 6.6064415, y: 4.9200006, z: -34.06}
+  m_LocalScale: {x: 0.42422998, y: 0.1008, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
+--- !u!23 &1140859626
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140859624}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1140859627
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140859624}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1141743948
 GameObject:
   m_ObjectHideFlags: 0
@@ -96211,7 +97574,7 @@ Transform:
   m_GameObject: {fileID: 1142778394}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.153179, y: 9.312517, z: -18.615253}
+  m_LocalPosition: {x: 4.111004, y: 9.312517, z: -18.615253}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -96912,6 +98275,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147939688}
   m_Mesh: {fileID: -7387706064836869012, guid: ef9391a70d1bb6f4fbe9c83af54d9343, type: 3}
+--- !u!1 &1148038725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1148038726}
+  - component: {fileID: 1148038728}
+  - component: {fileID: 1148038727}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1148038726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148038725}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 6.594, y: 4.92, z: -30.872076}
+  m_LocalScale: {x: 0.42422998, y: 0.1008, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
+--- !u!23 &1148038727
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148038725}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1148038728
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148038725}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1148178375
 GameObject:
   m_ObjectHideFlags: 0
@@ -98945,6 +100400,98 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1177894371}
   m_CullTransparentMesh: 1
+--- !u!1 &1179698932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1179698933}
+  - component: {fileID: 1179698935}
+  - component: {fileID: 1179698934}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (33)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1179698933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179698932}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 6.6000004, y: 4.9200006, z: -36.46}
+  m_LocalScale: {x: 0.42422998, y: 0.1008, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
+--- !u!23 &1179698934
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179698932}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1179698935
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179698932}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1185466510
 GameObject:
   m_ObjectHideFlags: 0
@@ -103059,6 +104606,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1226894430}
   m_Mesh: {fileID: 6239881831769578202, guid: f70c574de2780ee40b2673b6a8fec4ef, type: 3}
+--- !u!1 &1228426268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1228426269}
+  - component: {fileID: 1228426271}
+  - component: {fileID: 1228426270}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1228426269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228426268}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5052627, y: 0.4946814, z: 0.4946813, w: 0.50526273}
+  m_LocalPosition: {x: 0.5810003, y: 4.92, z: -32.434}
+  m_LocalScale: {x: 0.42422995, y: 0.10079999, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 88.787}
+--- !u!23 &1228426270
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228426268}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1228426271
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228426268}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1228446374
 GameObject:
   m_ObjectHideFlags: 0
@@ -106687,8 +108326,8 @@ Transform:
   m_GameObject: {fileID: 1260659084}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 12.335971, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 12.36, y: 0.5, z: 0}
+  m_LocalScale: {x: 0.9446025, y: 0.94697, z: 0.94697}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1276977558}
@@ -113492,6 +115131,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330616537}
   m_Mesh: {fileID: 70948873267775455, guid: f42cfedc80bf77842a6ef562e4e6acd0, type: 3}
+--- !u!1 &1330892504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1330892505}
+  - component: {fileID: 1330892507}
+  - component: {fileID: 1330892506}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (32)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1330892505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330892504}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.020983357, y: 0.70679545, z: 0.70679533, w: 0.020983513}
+  m_LocalPosition: {x: 3.3400002, y: 4.92, z: -28.5}
+  m_LocalScale: {x: 0.42423, y: 0.1008, z: 0.6706099}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 176.599}
+--- !u!23 &1330892506
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330892504}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1330892507
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330892504}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1331248276
 GameObject:
   m_ObjectHideFlags: 0
@@ -114272,6 +116003,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340758396}
   m_Mesh: {fileID: 945045616518673810, guid: 709b473e344a91742b1183252575ca82, type: 3}
+--- !u!1 &1340807167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1340807168}
+  - component: {fileID: 1340807170}
+  - component: {fileID: 1340807169}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1340807168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340807167}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5052627, y: 0.4946814, z: 0.4946813, w: 0.50526273}
+  m_LocalPosition: {x: 0.55200005, y: 4.92, z: -30.89}
+  m_LocalScale: {x: 0.42422995, y: 0.10079999, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 88.787}
+--- !u!23 &1340807169
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340807167}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1340807170
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340807167}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1340883519
 GameObject:
   m_ObjectHideFlags: 0
@@ -115404,7 +117227,7 @@ Transform:
   m_GameObject: {fileID: 1355183848}
   serializedVersion: 2
   m_LocalRotation: {x: 0.060036797, y: -0.7045535, z: -0.7045534, w: -0.060036812}
-  m_LocalPosition: {x: -4.248, y: 0.233, z: -0.387}
+  m_LocalPosition: {x: -4.37, y: 0.23, z: -0.27}
   m_LocalScale: {x: 0.723977, y: 0.723977, z: 0.23853955}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -116515,7 +118338,7 @@ Transform:
   m_GameObject: {fileID: 1363350615}
   serializedVersion: 2
   m_LocalRotation: {x: 0.069526486, y: -0.7036805, z: -0.70368034, w: -0.06952649}
-  m_LocalPosition: {x: -2.842, y: 0.23, z: 0.863}
+  m_LocalPosition: {x: -2.87, y: 0.23, z: 1.01}
   m_LocalScale: {x: 0.723977, y: 0.723977, z: 0.23853955}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -118253,8 +120076,8 @@ Transform:
   m_GameObject: {fileID: 1378852701}
   serializedVersion: 2
   m_LocalRotation: {x: 0.50000006, y: -0.50000006, z: 0.49999994, w: -0.5}
-  m_LocalPosition: {x: 19.72, y: 5.841, z: -33.706}
-  m_LocalScale: {x: 0.9125, y: 2.20875, z: 0.8203125}
+  m_LocalPosition: {x: 19.709, y: 5.892, z: -33.706}
+  m_LocalScale: {x: 0.85546875, y: 2.20875, z: 0.75878906}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1394797699}
@@ -119327,6 +121150,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391470704}
   m_Mesh: {fileID: 5386907456054446931, guid: 8c29bf9f0f847a76cb69a809df050c59, type: 3}
+--- !u!1 &1391886354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1391886355}
+  - component: {fileID: 1391886357}
+  - component: {fileID: 1391886356}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (24)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1391886355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391886354}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 6.6321983, y: 4.9200006, z: -34.77093}
+  m_LocalScale: {x: 0.42422998, y: 0.1008, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
+--- !u!23 &1391886356
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391886354}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1391886357
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391886354}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1393144165
 GameObject:
   m_ObjectHideFlags: 0
@@ -119585,7 +121500,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1394797699
 Transform:
   m_ObjectHideFlags: 0
@@ -119637,7 +121552,6 @@ Transform:
   - {fileID: 1669453807}
   - {fileID: 1651688957}
   - {fileID: 1378852702}
-  - {fileID: 1041759393}
   - {fileID: 1266495044}
   - {fileID: 1251268640}
   - {fileID: 498930777}
@@ -119645,6 +121559,7 @@ Transform:
   - {fileID: 477519451}
   - {fileID: 1983129938}
   - {fileID: 292992438}
+  - {fileID: 32449359}
   - {fileID: 1276977558}
   m_Father: {fileID: 1980501937}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -128389,6 +130304,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487103721}
   m_Mesh: {fileID: 5445666036772115024, guid: ce02301e05cee1c4abcb155745481bf1, type: 3}
+--- !u!1 &1487362293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1487362294}
+  - component: {fileID: 1487362296}
+  - component: {fileID: 1487362295}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1487362294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487362293}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5052627, y: 0.4946814, z: 0.4946813, w: 0.50526273}
+  m_LocalPosition: {x: 0.52999973, y: 4.92, z: -30.039}
+  m_LocalScale: {x: 0.42422995, y: 0.10079999, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 88.787}
+--- !u!23 &1487362295
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487362293}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1487362296
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487362293}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1487373968
 GameObject:
   m_ObjectHideFlags: 0
@@ -129434,6 +131441,80 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497753566}
   m_Mesh: {fileID: 828682800104665300, guid: bb93781ee87161346af2635933f8ecd3, type: 3}
+--- !u!1001 &1498259242
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1119732958}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3028602
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25116283
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.29197678
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.7604084
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.851903
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.723251
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7055393
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7055393
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.047056653
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.047056526
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 7.631
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+      propertyPath: m_Name
+      value: cortina da sala de audio
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+--- !u!4 &1498259243 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f4b8623761d2d594ea06710dd26c3edf, type: 3}
+  m_PrefabInstance: {fileID: 1498259242}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1499399474
 GameObject:
   m_ObjectHideFlags: 0
@@ -133637,6 +135718,92 @@ Transform:
   - {fileID: 1450836727}
   m_Father: {fileID: 1065692008}
   m_LocalEulerAnglesHint: {x: 0, y: -107.991, z: 0}
+--- !u!1 &1533384161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1533384162}
+  - component: {fileID: 1533384164}
+  - component: {fileID: 1533384163}
+  m_Layer: 0
+  m_Name: PAREDE  lateral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1533384162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533384161}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: 21.593, y: 4.65, z: -50.48}
+  m_LocalScale: {x: 1, y: 1.9145291, z: 1.2370298}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!23 &1533384163
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533384161}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -3846018093981099296, guid: 30243a5e78f920d4fa04cf45bd48ad8e, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1533384164
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533384161}
+  m_Mesh: {fileID: -4621238388735219092, guid: 30243a5e78f920d4fa04cf45bd48ad8e, type: 3}
 --- !u!1 &1533557997
 GameObject:
   m_ObjectHideFlags: 0
@@ -135764,6 +137931,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562797472}
   m_Mesh: {fileID: -6661147703205052434, guid: 773d7efd0e133ac46bdea20684e9dddb, type: 3}
+--- !u!1 &1563030153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1563030154}
+  - component: {fileID: 1563030156}
+  - component: {fileID: 1563030155}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1563030154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563030153}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5052627, y: 0.4946814, z: 0.4946813, w: 0.50526273}
+  m_LocalPosition: {x: 0.5340004, y: 4.92, z: -37.248}
+  m_LocalScale: {x: 0.42422995, y: 0.10079999, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 88.787}
+--- !u!23 &1563030155
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563030153}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1563030156
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563030153}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1563033146
 GameObject:
   m_ObjectHideFlags: 0
@@ -137751,7 +140010,7 @@ Transform:
   m_GameObject: {fileID: 1580995456}
   serializedVersion: 2
   m_LocalRotation: {x: 0.106787294, y: -0.69899684, z: -0.6989967, w: -0.10678731}
-  m_LocalPosition: {x: -3.115, y: 0.233, z: -0.056}
+  m_LocalPosition: {x: -0.44, y: 0.23, z: -8.61}
   m_LocalScale: {x: 0.723977, y: 0.723977, z: 0.23853955}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -147402,6 +149661,98 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1683254940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1683254941}
+  - component: {fileID: 1683254943}
+  - component: {fileID: 1683254942}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1683254941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683254940}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.3513611, y: 0.613633, z: 0.6136329, w: 0.3513612}
+  m_LocalPosition: {x: 0.78678226, y: 4.92, z: -28.966543}
+  m_LocalScale: {x: 0.42422998, y: 0.1008, z: 0.6706099}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 120.41}
+--- !u!23 &1683254942
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683254940}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1683254943
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683254940}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1684522506
 GameObject:
   m_ObjectHideFlags: 0
@@ -150321,6 +152672,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1714757344}
   m_Mesh: {fileID: -2944744631110633006, guid: 8c29bf9f0f847a76cb69a809df050c59, type: 3}
+--- !u!1 &1715326290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1715326291}
+  - component: {fileID: 1715326293}
+  - component: {fileID: 1715326292}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (29)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1715326291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715326290}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.020983357, y: 0.70679545, z: 0.70679533, w: 0.020983513}
+  m_LocalPosition: {x: 5.09, y: 4.92, z: -28.4}
+  m_LocalScale: {x: 0.42423, y: 0.1008, z: 0.6706099}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 176.599}
+--- !u!23 &1715326292
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715326290}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1715326293
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715326290}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1717146196
 GameObject:
   m_ObjectHideFlags: 0
@@ -153967,6 +156410,36 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 180231855}
+  - {fileID: 1533384162}
+  - {fileID: 91026923}
+  - {fileID: 1563030154}
+  - {fileID: 1956603354}
+  - {fileID: 1019929541}
+  - {fileID: 681289073}
+  - {fileID: 1148038726}
+  - {fileID: 587029529}
+  - {fileID: 875830834}
+  - {fileID: 1955791154}
+  - {fileID: 1391886355}
+  - {fileID: 58899381}
+  - {fileID: 1179698933}
+  - {fileID: 298250406}
+  - {fileID: 1330892505}
+  - {fileID: 1140859625}
+  - {fileID: 1064113565}
+  - {fileID: 1005368572}
+  - {fileID: 1228426269}
+  - {fileID: 1097293376}
+  - {fileID: 1138293674}
+  - {fileID: 559579016}
+  - {fileID: 1715326291}
+  - {fileID: 1912502398}
+  - {fileID: 1487362294}
+  - {fileID: 1683254941}
+  - {fileID: 1340807168}
+  - {fileID: 2053796696}
+  - {fileID: 40359175}
+  - {fileID: 381133931}
   m_Father: {fileID: 1980501937}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1753382620
@@ -157947,7 +160420,7 @@ Transform:
   m_GameObject: {fileID: 1799618664}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0096150525, y: 0.70704144, z: 0.7070414, w: -0.009615045}
-  m_LocalPosition: {x: 21.433, y: 4.882, z: -36.679}
+  m_LocalPosition: {x: 21.433, y: 4.88, z: -36.679}
   m_LocalScale: {x: 0.19812527, y: 0.19812527, z: 0.19812527}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -166513,6 +168986,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911940021}
   m_Mesh: {fileID: 222703572548249412, guid: ce02301e05cee1c4abcb155745481bf1, type: 3}
+--- !u!1 &1912502397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1912502398}
+  - component: {fileID: 1912502400}
+  - component: {fileID: 1912502399}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (30)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1912502398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912502397}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.020983357, y: 0.70679545, z: 0.70679533, w: 0.020983513}
+  m_LocalPosition: {x: 4.2, y: 4.92, z: -28.46}
+  m_LocalScale: {x: 0.42423, y: 0.1008, z: 0.6706099}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 176.599}
+--- !u!23 &1912502399
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912502397}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1912502400
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912502397}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1914274226
 GameObject:
   m_ObjectHideFlags: 0
@@ -170087,6 +172652,190 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955065367}
   m_Mesh: {fileID: 1186606553053583344, guid: 6464d34ad579dee4c93c7f13e2467157, type: 3}
+--- !u!1 &1955791153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1955791154}
+  - component: {fileID: 1955791156}
+  - component: {fileID: 1955791155}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (23)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1955791154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955791153}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 6.591156, y: 4.92, z: -33.27}
+  m_LocalScale: {x: 0.42422998, y: 0.1008, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
+--- !u!23 &1955791155
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955791153}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1955791156
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955791153}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
+--- !u!1 &1956603353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1956603354}
+  - component: {fileID: 1956603356}
+  - component: {fileID: 1956603355}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1956603354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956603353}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5052627, y: 0.4946814, z: 0.4946813, w: 0.50526273}
+  m_LocalPosition: {x: 0.56799984, y: 4.92, z: -34.716}
+  m_LocalScale: {x: 0.42422995, y: 0.10079999, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 88.787}
+--- !u!23 &1956603355
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956603353}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1956603356
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956603353}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &1956640420
 GameObject:
   m_ObjectHideFlags: 0
@@ -179272,6 +182021,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2053554446}
   m_Mesh: {fileID: -8042107092396623629, guid: 68c9a8ef4e3ed4c4385d87d4f5c9175e, type: 3}
+--- !u!1 &2053796695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2053796696}
+  - component: {fileID: 2053796698}
+  - component: {fileID: 2053796697}
+  m_Layer: 0
+  m_Name: Cadeiras-sala  de audio telma(trevo) (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2053796696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053796695}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5052627, y: 0.4946814, z: 0.4946813, w: 0.50526273}
+  m_LocalPosition: {x: 0.5159998, y: 4.92, z: -36.387}
+  m_LocalScale: {x: 0.42422995, y: 0.10079999, z: 0.67060995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753253969}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 88.787}
+--- !u!23 &2053796697
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053796695}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 9185737683893222716, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 6699446615349125189, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: -6087771358165109452, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 5326304199854058620, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 3035089843177413120, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  - {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
+  - {fileID: -8290906326479932656, guid: df0609ac83084484997091ddc3494e56, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2053796698
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053796695}
+  m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
 --- !u!1 &2054969603
 GameObject:
   m_ObjectHideFlags: 0
