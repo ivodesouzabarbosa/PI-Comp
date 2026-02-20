@@ -62,4 +62,9 @@ public class MenuController : MonoBehaviour
         CallMenu();
         GameObject.Find(_FocusPainel).transform.DOLocalMove(new Vector3(1500, 0, 0), .5f);
     }
+
+    public void ReiniciarCena()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }

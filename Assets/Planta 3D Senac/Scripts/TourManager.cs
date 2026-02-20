@@ -1,5 +1,6 @@
-using UnityEngine;
 using DG.Tweening;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TourManager : MonoBehaviour
 {
@@ -49,4 +50,6 @@ public class TourManager : MonoBehaviour
        
         cameraVirtualObj.DORotate(novoLocal.transform.eulerAngles, tempoViagem).SetEase(Ease.InOutQuad);
     }
+
+   
 }

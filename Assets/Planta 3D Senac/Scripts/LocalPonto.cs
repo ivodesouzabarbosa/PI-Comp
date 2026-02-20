@@ -13,9 +13,7 @@ public class LocalPonto : MonoBehaviour
 
     public LocalPonto proximoPontoAutomatico;
 
-    [SerializeField] GameObject girarPorta;
-
-    public List<GameObject> objetosDaSala;
+   
 
     void Start()
     {
@@ -46,35 +44,15 @@ public class LocalPonto : MonoBehaviour
     {
         foreach (var seta in minhasSetas)
             if (seta != null) seta.SetActive(true);
-        foreach (var obj in objetosDaSala)
-            if (obj != null) obj.SetActive(true);
-        AbrirPorta();
+      
     }
 
     public void DesativarSetas()
     {
         foreach (var seta in minhasSetas)
             if (seta != null) seta.SetActive(false);
-        foreach (var obj in objetosDaSala)
-            if (obj != null) obj.SetActive(false);
-        FechaPorta();
+       
     }
 
-    void AbrirPorta()
-    {
-        if (girarPorta != null)
-        {
-            var porta = girarPorta.GetComponent<PortaControlador>();
-            if (porta != null) porta.Abrir();
-        }
-    }
-
-    void FechaPorta()
-    {
-        if (girarPorta != null)
-        {
-            var porta = girarPorta.GetComponent<PortaControlador>();
-            if (porta != null) porta.Fechar();
-        }
-    }
+   
 }
