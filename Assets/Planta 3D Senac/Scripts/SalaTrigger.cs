@@ -7,7 +7,14 @@ public class SalaTrigger : MonoBehaviour
 
     public GameObject girarPorta;
 
-    void Start() => conteudoDaSala.SetActive(false);
+    public bool desativarObj;
+    void Start()
+    {
+        if (desativarObj)
+        {
+            conteudoDaSala.SetActive(false);
+        }
+    }
 
     private void OnTriggerEnter(Collider other)
     {
