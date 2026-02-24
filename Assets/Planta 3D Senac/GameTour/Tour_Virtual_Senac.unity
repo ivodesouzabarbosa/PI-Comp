@@ -80364,6 +80364,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722147688}
   m_Mesh: {fileID: 4493585093827132993, guid: 3cbb9e9612202bd40ab3da09c48ebf80, type: 3}
+--- !u!1 &723847610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 723847612}
+  - component: {fileID: 723847611}
+  m_Layer: 0
+  m_Name: Dentro - Sala Microsoft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &723847611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723847610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4518e3f48bfff9c41af3b523cfd96c38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pontoInicio: 0
+  minhasSetas:
+  - {fileID: 1125346252}
+  proximoPontoAutomatico: {fileID: 0}
+--- !u!4 &723847612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723847610}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1525121260}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &724728333
 GameObject:
   m_ObjectHideFlags: 0
@@ -86271,53 +86319,6 @@ Transform:
   - {fileID: 1585285447}
   m_Father: {fileID: 1136279733}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!1 &793373421
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 793373422}
-  - component: {fileID: 793373423}
-  m_Layer: 0
-  m_Name: Sala_Microsoft_Entrar (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &793373422
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 793373421}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: -6.377, y: 0, z: 3.556}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2110066498}
-  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!114 &793373423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 793373421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4518e3f48bfff9c41af3b523cfd96c38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _pontoInicio: 0
-  minhasSetas: []
-  proximoPontoAutomatico: {fileID: 0}
 --- !u!1 &793457266
 GameObject:
   m_ObjectHideFlags: 0
@@ -123249,7 +123250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a9af0189288c2b4db4ed7d05c6f13b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destino: {fileID: 404700108}
+  destino: {fileID: 1912831168}
 --- !u!114 &1125346255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153119,6 +153120,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371551213}
   m_Mesh: {fileID: -6704062865307312611, guid: 925a969ec37302948b4a9d097ae1ce3f, type: 3}
+--- !u!1 &1371604051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1371604053}
+  - component: {fileID: 1371604052}
+  m_Layer: 0
+  m_Name: Sala_Microsoft_Entrar (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1371604052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371604051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4518e3f48bfff9c41af3b523cfd96c38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pontoInicio: 0
+  minhasSetas: []
+  proximoPontoAutomatico: {fileID: 782449952}
+--- !u!4 &1371604053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371604051}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00050163275}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2110066498}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1371962403
 GameObject:
   m_ObjectHideFlags: 0
@@ -171367,6 +171415,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524773862}
   m_Mesh: {fileID: -8803937527578110353, guid: f70c574de2780ee40b2673b6a8fec4ef, type: 3}
+--- !u!1 &1525121259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1525121260}
+  m_Layer: 0
+  m_Name: Sala - Microsoft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1525121260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525121259}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 21.17, y: 1.7, z: 8.501}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 723847612}
+  m_Father: {fileID: 1936938582}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1525697127
 GameObject:
   m_ObjectHideFlags: 0
@@ -171625,7 +171705,7 @@ Transform:
   m_GameObject: {fileID: 1526411887}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7119034, z: 0, w: 0.7022774}
-  m_LocalPosition: {x: 16.748892, y: 1.3, z: -1.6910005}
+  m_LocalPosition: {x: 16.829, y: 1.3, z: -1.852}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -184444,7 +184524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _pontoInicio: 0
   minhasSetas: []
-  proximoPontoAutomatico: {fileID: 793373423}
+  proximoPontoAutomatico: {fileID: 723847611}
 --- !u!4 &1632209241
 Transform:
   m_ObjectHideFlags: 0
@@ -212987,6 +213067,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912502397}
   m_Mesh: {fileID: -2365438353677704214, guid: df0609ac83084484997091ddc3494e56, type: 3}
+--- !u!1 &1912831166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1912831167}
+  - component: {fileID: 1912831168}
+  m_Layer: 0
+  m_Name: Sala_Microsoft_Entrar (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1912831167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912831166}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 3.669}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2110066498}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!114 &1912831168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912831166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4518e3f48bfff9c41af3b523cfd96c38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pontoInicio: 0
+  minhasSetas: []
+  proximoPontoAutomatico: {fileID: 1371604052}
 --- !u!1 &1913782254
 GameObject:
   m_ObjectHideFlags: 0
@@ -215702,6 +215829,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2113740669}
+  - {fileID: 1525121260}
   m_Father: {fileID: 83293060}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1938429468
@@ -231633,8 +231761,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.488016, y: 2.5163846, z: 12.71559}
-  m_Center: {x: 2.1493196, y: 0.7581923, z: -5.26624}
+  m_Size: {x: 5.4248123, y: 2.5163846, z: 12.71559}
+  m_Center: {x: 2.6177177, y: 0.7581923, z: -5.26624}
 --- !u!1 &2073615526
 GameObject:
   m_ObjectHideFlags: 0
@@ -234638,7 +234766,8 @@ Transform:
   m_Children:
   - {fileID: 1659396014}
   - {fileID: 1632209241}
-  - {fileID: 793373422}
+  - {fileID: 1371604053}
+  - {fileID: 1912831167}
   m_Father: {fileID: 1113944296}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &2110242719
