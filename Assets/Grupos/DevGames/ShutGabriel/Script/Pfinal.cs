@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Pfinal : MonoBehaviour
 {
-    public float speed = 100f;
+    public float speed = 1f;
     [SerializeField]  private RectTransform rect;
     [SerializeField] private RectTransform pontoFinal;
 
@@ -26,42 +26,16 @@ public class Pfinal : MonoBehaviour
     void Update()
     {
         if (!gameObject.activeInHierarchy) return;
-
-        rect.position = Vector3.MoveTowards(
-            rect.position,
-            pontoFinal.position,
-            speed * Time.deltaTime
-        );
+        Vector3 direcao = (pontoFinal.position - transform.position).normalized;
+        transform.position += direcao * speed * Time.deltaTime;
 
         if (Vector3.Distance(rect.position, pontoFinal.position) < 5f)
         {
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
         }
     }
 
-    /*void Update()
-    {
-        time += Time.deltaTime;
-
-        Vector3 direction = (pontoFinal.position - startPos).normalized;
-
-        float distance = speed * time;
-
-        Vector3 basePosition = startPos + direction * distance;
-
-        float wave = Mathf.Sin(time * 5f) * 20f;
-
-        rect.position = basePosition + new Vector3(0, wave, 0);
-
-        if (direction.x < 0 && rect.position.x <= pontoFinal.position.x)
-        {
-            gameObject.SetActive(false);
-        }
-        else if (direction.x > 0 && rect.position.x >= pontoFinal.position.x)
-        {
-            gameObject.SetActive(false);
-        }
-    }*/
+   
 }
 
 
