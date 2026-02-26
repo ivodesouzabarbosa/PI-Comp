@@ -1,59 +1,19 @@
 fileFormatVersion: 2
-guid: ca218f287560a994e81668537c497d73
+guid: 030273147afc6cd4fb7c8e892275e3ac
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Black plastic
-    second: {fileID: 2100000, guid: b98fef48b3a8d29418933b0635455c56, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Black plastic.001
-    second: {fileID: 2100000, guid: 365ae7e1670ba2c42817b1a1515f62a6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: 76c5f2bc41293c341939ee7b29bb2d2f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 63be6ca41078e9a44ac89d288b55044a, type: 2}
+      name: led microsoft_albeto
+    second: {fileID: 2800000, guid: 9c671f0949a738d458939c9ee6ba6c3c, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: plastic15_diffuse
-    second: {fileID: 2800000, guid: 7d4c773f89aaae943aeba3d4e2638aab, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: plastic15_normal_opengl
-    second: {fileID: 2800000, guid: 9bb944a53be091d4da1c65857e2bfefa, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: plastic_diffuse
-    second: {fileID: 2800000, guid: 96662c1b46f7e1d45b9361e9ce58e563, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: plastic_normal_opengl
-    second: {fileID: 2800000, guid: 550a444ab1519d2419ab8d7b125114b7, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: plastic_specular
-    second: {fileID: 2800000, guid: 90bdaf96cda45b24ba2d80d279b0f1e7, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: teladetv_Albedo
-    second: {fileID: 2800000, guid: cc1f79c1e0e8d76438922d5321da242d, type: 3}
+      name: led microsoft_rougness
+    second: {fileID: 2800000, guid: fed3e93c7f6d3424ca3f545e7925aaee, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,17 @@ guid: cdc4812549fe36f4c98adbb3e0b9de19
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PAREDE BRANCA.001
+    second: {fileID: 2100000, guid: 083a6af5e55e24a40a5a05e20309cc31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vidro
+    second: {fileID: 2100000, guid: 70e46d8d5509e2b4aaf235a30da8572d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
