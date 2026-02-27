@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 091b48417b63fec45a9612dfce3c2947
+guid: 7ff53becef334d44d8bcf08c24904313
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: led microsoft_albeto
+    second: {fileID: 2800000, guid: cf0847cee62f91441a5622cbad796634, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: led microsoft_rougness
+    second: {fileID: 2800000, guid: d1eb49174b4912847b9582cdb769d584, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
