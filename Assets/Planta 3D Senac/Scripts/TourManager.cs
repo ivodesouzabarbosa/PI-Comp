@@ -13,7 +13,7 @@ public class TourManager : MonoBehaviour
     [Header("Ajustes")]
     public float tempoViagem = 2.0f;
 
-    private LocalPonto _localAtual;
+    public LocalPonto _localAtual;
 
     void Awake()
     {
@@ -23,7 +23,7 @@ public class TourManager : MonoBehaviour
     public void IrParaLocal(LocalPonto novoLocal)
     {
         
-        if (scriptDeOlhar != null) scriptDeOlhar.enabled = false;
+        // if (scriptDeOlhar != null) scriptDeOlhar.enabled = false;
 
         
         if (_localAtual != null) _localAtual.DesativarSetas();

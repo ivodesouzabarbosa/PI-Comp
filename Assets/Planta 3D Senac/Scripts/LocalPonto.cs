@@ -21,6 +21,7 @@ public class LocalPonto : MonoBehaviour
 
         if (_pontoInicio)
             AtivarSetas();
+            
         else
             DesativarSetas();
     }
