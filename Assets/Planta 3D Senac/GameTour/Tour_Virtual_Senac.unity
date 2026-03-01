@@ -82366,7 +82366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &668377350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125008,7 +125008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1009205034
 Transform:
   m_ObjectHideFlags: 0
@@ -172723,6 +172723,7 @@ MonoBehaviour:
   cameraVirtualObj: {fileID: 1384928567}
   scriptDeOlhar: {fileID: 1384928564}
   tempoViagem: 2
+  _localAtual: {fileID: 0}
 --- !u!114 &1384928566
 MonoBehaviour:
   m_ObjectHideFlags: 0
