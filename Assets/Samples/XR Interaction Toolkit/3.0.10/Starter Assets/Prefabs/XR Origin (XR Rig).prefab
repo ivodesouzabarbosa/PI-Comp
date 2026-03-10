@@ -864,7 +864,6 @@ GameObject:
   - component: {fileID: 5826056641483426609}
   - component: {fileID: 5033801203051696737}
   - component: {fileID: 7923871961413510150}
-  - component: {fileID: 2019362703873748600}
   m_Layer: 2
   m_Name: XR Origin (XR Rig)
   m_TagString: MainCamera
@@ -999,21 +998,6 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 1.23, z: 0}
---- !u!114 &2019362703873748600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1717954561962503725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f636360a746f3b84387b00f195e73c28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraVirtualObj: {fileID: 1717954561962503726}
-  scriptDeOlhar: {fileID: 0}
-  tempoViagem: 5
 --- !u!1 &1787516059220952802
 GameObject:
   m_ObjectHideFlags: 0
