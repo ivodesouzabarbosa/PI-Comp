@@ -188440,7 +188440,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1539243537}
+    - targetCorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1539243538}
   m_SourcePrefab: {fileID: 100100000, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+--- !u!4 &1460999895 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+  m_PrefabInstance: {fileID: 1460999894}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1461882691
 GameObject:
   m_ObjectHideFlags: 0
@@ -199015,6 +199023,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartActionReference: {fileID: 2277070411074687894, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &1539243538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539243516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f636360a746f3b84387b00f195e73c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraVirtualObj: {fileID: 1460999895}
+  scriptDeOlhar: {fileID: 0}
+  tempoViagem: 4
+  _localAtual: {fileID: 1832748707}
 --- !u!1001 &1539283206
 PrefabInstance:
   m_ObjectHideFlags: 0

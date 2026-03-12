@@ -9,9 +9,9 @@ public class BotaoSetaVR : MonoBehaviour
     {
         if (destino != null)
         {
-            if (TourManager_Vr.Instance != null)
+            if (TourManager.Instance != null)
             {
-                TourManager_Vr.Instance.IrParaLocal(destino);
+                TourManager.Instance.IrParaLocal(destino);
             }
         }
     }
