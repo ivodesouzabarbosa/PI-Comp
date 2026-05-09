@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 261.78, y: -103.574}
+  m_AnchoredPosition: {x: 261.78003, y: -103.573975}
   m_SizeDelta: {x: -1490.086, y: -292.464}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &51936610
@@ -729,6 +729,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 880831811}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SelecionarCurso
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Idiomas
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &281356464
@@ -1493,6 +1505,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 880831811}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SelecionarCurso
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Analise de Dados
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &426051788
@@ -2570,6 +2594,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 880831811}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SelecionarCurso
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Desenvolvimento de sistemas
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &715171484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3204,7 +3240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: 281}
+  m_AnchoredPosition: {x: 0, y: 281}
   m_SizeDelta: {x: 165.449, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &914441984
@@ -4030,7 +4066,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -178.129, y: -103.574}
+  m_AnchoredPosition: {x: -178.12903, y: -103.573975}
   m_SizeDelta: {x: -1490.086, y: -292.464}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1252835362
@@ -4683,6 +4719,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 880831811}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SelecionarCurso
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Moda
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1445793172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4759,7 +4807,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -646, y: 49.007}
+  m_AnchoredPosition: {x: -646, y: 49.00699}
   m_SizeDelta: {x: -1496.492, y: -929.789}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1455391735
@@ -5624,6 +5672,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 880831811}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SelecionarCurso
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "Manuten\xE7\xE3o de redes"
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1902844716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6270,6 +6330,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 880831811}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SelecionarCurso
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Fotografia
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2066169436
