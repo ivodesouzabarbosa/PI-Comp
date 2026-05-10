@@ -17,13 +17,13 @@ public class LocalPonto : MonoBehaviour
 
     void Start()
     {
-
+        DesativarSetas();
 
         if (_pontoInicio)
-            AtivarSetas();
-            
-        else
-            DesativarSetas();
+        {
+            if (TourManager.Instance != null)
+                TourManager.Instance._localAtual = this;
+        }
     }
 
 
