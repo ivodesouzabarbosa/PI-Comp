@@ -6,7 +6,7 @@ using DG.Tweening;
 public class Menu : MonoBehaviour
 {
     [SerializeField] private string Cena;
-    [SerializeField] private GerenciadorObjetosMapa _gerenciadorObjetosMapa;
+    [SerializeField] private TesouroHuntManager _gerenciadorObjetosMapa;
     [SerializeField] Transform _menuIni;
     public void SelecionarCurso(int value)
     {

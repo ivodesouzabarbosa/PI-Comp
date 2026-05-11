@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GerenciadorObjetosMapa : MonoBehaviour
+public class TesouroHuntManager : MonoBehaviour
 {
 
     public Button[] botoes;
