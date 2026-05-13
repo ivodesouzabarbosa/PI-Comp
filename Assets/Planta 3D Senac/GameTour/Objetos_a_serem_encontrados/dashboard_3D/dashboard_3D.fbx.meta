@@ -3,7 +3,22 @@ guid: 8cb868058bb172e95b0cd9c130cfa4e9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 639917cde27748c478c759a921edceb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: holo
+    second: {fileID: 2100000, guid: edf4da2aac635884e97aaa2b0f698a1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: holo_graficos
+    second: {fileID: 2100000, guid: ab2223c449bd4c348bdb37488f96d3f8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

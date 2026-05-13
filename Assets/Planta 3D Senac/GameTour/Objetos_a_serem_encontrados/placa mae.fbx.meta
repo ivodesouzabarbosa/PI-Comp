@@ -3,7 +3,22 @@ guid: 4e2857453cd67f4aa9dead2a7a434236
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 15010f22dfb4fb64c94feca094b147ad, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Placa mae_albeto
+    second: {fileID: 2800000, guid: 1748776798ce42046972d2e440b57898, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Placa mae_roughness
+    second: {fileID: 2800000, guid: 1b89f9d7770ea674cb4f67a1a7f8274a, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
