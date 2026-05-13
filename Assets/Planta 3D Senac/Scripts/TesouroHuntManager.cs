@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class TesouroHuntManager : MonoBehaviour
 {
 
-    public Button[] botoes;
+    public GameObject[] botoes;
     public GameObject[] objetosDoMapa;
     public LocalPonto pontoInicialDoTour;
     void Start()
@@ -17,14 +17,14 @@ public class TesouroHuntManager : MonoBehaviour
 
     public void EscolherObjeto(int indiceEscolhido)
     {
-        foreach (Button btn in botoes)
+        foreach (GameObject btn in botoes)
         {
-            btn.interactable = false;
+            //btn.interactable = false;
         }
 
-        ColorBlock colors = botoes[indiceEscolhido].colors;
-        colors.disabledColor = Color.green;
-        botoes[indiceEscolhido].colors = colors;
+        
+       
+        
 
         if (objetosDoMapa[indiceEscolhido] != null)
         {

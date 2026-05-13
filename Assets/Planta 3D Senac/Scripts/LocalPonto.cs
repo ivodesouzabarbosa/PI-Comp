@@ -23,6 +23,7 @@ public class LocalPonto : MonoBehaviour
         {
             if (TourManager.Instance != null)
                 TourManager.Instance._localAtual = this;
+           // AtivarSetas();
         }
     }
 

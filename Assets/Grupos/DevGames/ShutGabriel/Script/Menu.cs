@@ -6,12 +6,12 @@ using DG.Tweening;
 public class Menu : MonoBehaviour
 {
     [SerializeField] private string Cena;
-    [SerializeField] private TesouroHuntManager _gerenciadorObjetosMapa;
+    [SerializeField] private TesouroHuntManager _tesouroHuntManager;
     [SerializeField] Transform _menuIni;
     public void SelecionarCurso(int value)
     {
         _menuIni.DOScale(0, .25f);
-        _gerenciadorObjetosMapa.EscolherObjeto(value);
+        _tesouroHuntManager.EscolherObjeto(value);
         switch (value)
         {
 
