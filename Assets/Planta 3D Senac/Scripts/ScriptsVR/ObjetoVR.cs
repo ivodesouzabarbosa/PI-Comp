@@ -1,43 +1,63 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactables; 
 
 public class ObjetoVR : MonoBehaviour
 {
-
-    public Camera camerad;
+    [Header("Interface")]
     public GameObject painel;
+
+    [Header("Limpeza de Cena")]
+    public GameObject[] gameObjectsAtrapaiando;
+
+    private XRSimpleInteractable interactable;
 
     void Start()
     {
+       
+        if (painel != null)
+        {
+            painel.SetActive(false);
+        }
 
-        painel.SetActive(false);
+        
+        
+
+        
+        interactable = GetComponent<XRSimpleInteractable>();
+
+
+        interactable.selectEntered.AddListener(clickVR);
+    }
+
+   
+    private void clickVR(SelectEnterEventArgs arg0)
+    {
+         
+           bool estadoAtual = painel.activeSelf;
+           painel.SetActive(!estadoAtual);
+           gameObject.SetActive(false);
+        foreach (GameObject objAtrapalhando in gameObjectsAtrapaiando)
+        {
+            if (objAtrapalhando != null)
+            {
+                objAtrapalhando.SetActive(false);
+            }
+        }
 
     }
 
-    void Update()
+   
+    public void Reinciarcena()
     {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
-        if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            if (camerad == null) return;
-
-            Vector2 mousePos = Mouse.current.position.ReadValue();
-            Ray raioDoMouse = camerad.ScreenPointToRay(mousePos);
-            RaycastHit acerto;
-
-
-            if (Physics.Raycast(raioDoMouse, out acerto))
-            {
-                if (acerto.collider.gameObject == gameObject)
-                {
-
-                    if (painel != null)
-                    {
-                        bool estadoAtual = painel.activeSelf;
-                        painel.SetActive(!estadoAtual);
-                    }
-                }
-            }
-        }
+    private void OnDestroy()
+    {
+          
+       //interactable.selectEntered.RemoveListener(clickVR);
+        
     }
 }
