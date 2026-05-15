@@ -1,16 +1,19 @@
-using UnityEngine;
-using UnityEngine.SceneManagement;
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
-using DG.Tweening;
+using UnityEngine;
+using UnityEngine.PlayerLoop;
+using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour
 {
     [SerializeField] private string Cena;
     [SerializeField] public TesouroHuntManager _tesouroHuntManager;
+    [SerializeField] public TimerUpdate timerUpdate;
     [SerializeField] Transform _menuIni;
     public void SelecionarCurso(int value)
     {
-      //  Debug.Log(gameObject.name);
+        //  Debug.Log(gameObject.name);
+        timerUpdate.StartTimer();
         _menuIni.DOScale(0, .25f);
         _tesouroHuntManager.EscolherObjeto(value);
         switch (value)
